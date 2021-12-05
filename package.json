@@ -1,0 +1,20 @@
+{
+  "name": "connect-four-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js "
+  },
+  "author": "games.chat",
+  "license": "None",
+  "dependencies": {
+    "auto-bind": "^4.0.0",
+    "dotenv": "^10.0.0",
+    "esm": "^3.2.25",
+    "express": "^4.16.2",
+    "tmi.js": "^1.8.5",
+    "ws": "^3.2.0"
+  }
+}
